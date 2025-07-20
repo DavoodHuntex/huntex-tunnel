@@ -127,4 +127,3 @@ systemctl enable --now tunnel443-nft.service
 
 sleep 2
 echo -e "\033[1;32m[✓] Tunnel to $FOREIGN_IP via nftables is now ACTIVE.\033[0m"
-echo -e "\033[1;33m[*] Test: curl -vk https://localhost\033[0m"
